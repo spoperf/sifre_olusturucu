@@ -1,0 +1,4 @@
+file_name = input("dosya ismi gir:\n")  # new line
+data = input("dosyaya ne kaydetmek istersin:\n")
+with open(f"{file_name}.txt", "w") as doc:
+    doc.write(data)
